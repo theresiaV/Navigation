@@ -1,0 +1,27 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="@android:color/holo_blue_light"
+    tools:context="com.tere_mary.navigation_drawer.Fragment_Home">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/holo_orange_light">
+
+        <TextView
+            android:id="@+id/txt_Home"
+            android:layout_width="150dp"
+            android:layout_height="92dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="Hello"
+            android:textSize="55sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="117dp"
+            tools:layout_editor_absoluteY="209dp" />
+    </RelativeLayout>
+</FrameLayout>
